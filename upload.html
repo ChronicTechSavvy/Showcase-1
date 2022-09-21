@@ -1,0 +1,111 @@
+<form action="action_page.php">
+	<div class="container">
+    		<h1>Project Showcase</h1>
+    		<p>Please fill up the given form.</p>
+   		<hr>
+		
+		<label for="college name"><b>COLLEGE NAME</b></label>
+		<input type="text" placeholder="Enter College Name" name="college name" id="college name" required>
+
+		<label for="code"><b>AICTE ID</b></label>
+		<input type="number" placeholder="AICTE ID" name="code" id="id" required>
+		<br>
+		<hr>
+
+    		<label for="id"><b>COLLEGE ID</b></label>
+		<input type="text" placeholder="Enter College Id" name="email" id="email" required>
+
+    		<label for="year"><b>ACAMEDIC YEAR</b></label>
+    		<input type="number" placeholder="Enter Acamedic Year" name="year" id="year" required>
+		<hr>
+
+   		<label for="branch"><b>Branch</b></label>
+		<input type="text" placeholder="Enter Branch" name="branch" id="branch" required>
+		
+		<label for="title"><b>TITLE</b></label>
+		<input type="text" placeholder="Title of the project" name="title" id="title" required>
+
+		<label for="keyword"><b>KEYWORD</b></label>
+		<input type="text" placeholder="Important Keyword" name="keyword" id="keyword" required>
+		 
+		<label for="abstract"><b>ABSTRACT</b></label>
+		<input type="text" placeholder="Summary of complete project" name="summary" id="summary" required>		
+		
+		<label for="file"><b>Choose a file</b></label>
+		<input type="file" name="file" id="file" class="conatiner" />
+
+   		<button type="submit" class="registerbtn">Submit</button>
+  		</div>
+
+<style>
+ 	{box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.container + label {
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.container:focus + label,
+.container + label:hover {
+    background-color: purple;
+}
+
+
+.sumitbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</form>

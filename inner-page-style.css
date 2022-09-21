@@ -1,35 +1,3 @@
-=== EDULAB ===
-
-
-=== Changelog ===
-
-index page done
-
-blog page done
-
-blog-edu-single done
-
-events done
-
-contact page done
-
-about page done
-
-course single page done
-
-testimonial page done
-
-course Listing page done
-
-gallery 2 page done 
-
-video and image slider added
-
-Image Hover and lightbox added
-
-font-size and font family grouping
-
-
 /*================================
 	Font Size
 ==================================*/
